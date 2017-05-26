@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Please enter first number"
 read first
+
 echo "Please enter second number"
 read second
 
