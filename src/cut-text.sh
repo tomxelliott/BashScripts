@@ -12,3 +12,7 @@ cut -d : -f 2,4 /etc/passwd
 cut -f-3
 
 cut -d' ' -f4
+
+# Read first 20 bytes of a files:
+
+head -c 20 <file_name>
