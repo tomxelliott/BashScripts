@@ -14,5 +14,7 @@ cut -f-3
 cut -d' ' -f4
 
 # Read first 20 bytes of a files:
-
 head -c 20 <file_name>
+
+# Print certain line range (using sed):
+sed -n 12,22p
