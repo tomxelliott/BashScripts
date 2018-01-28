@@ -16,5 +16,8 @@ cut -d' ' -f4
 # Read first 20 bytes of a files:
 head -c 20 <file_name>
 
+# Use tail to print last x (20) number of lines:
+tail -20
+
 # Print certain line range (using sed):
 sed -n 12,22p
