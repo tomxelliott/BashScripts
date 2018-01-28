@@ -10,3 +10,5 @@ cut -d : -f 2,4 /etc/passwd
 
 # Print first 3 tab separated fields:
 cut -f-3
+
+cut -d' ' -f4
