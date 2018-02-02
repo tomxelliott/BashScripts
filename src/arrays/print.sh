@@ -7,3 +7,5 @@ echo ${arr[@]}
 # Print certain elements of the array.
 # From element 3 with an offset of 5 (equates to elements 3-7)
 echo ${arr[@]:3:5}
+# Print only elements in the array that don't contain 'a' or 'A'
+echo ${arr[@]/*[aA]*/}
