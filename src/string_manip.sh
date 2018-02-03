@@ -41,3 +41,5 @@ uniq -w5 /dev/stdin
 
 # replace all new line with tab
 tr "\n" "\t" < /dev/stdin
+# replace all new line with ';'
+paste -d';' -s
