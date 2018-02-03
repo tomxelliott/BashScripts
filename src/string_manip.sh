@@ -11,3 +11,6 @@ sed 's/[A-Z]//g' /dev/stdin
 
 # Trim/squeeze any multiple spaces into single spaces
 tr -s " " < /dev/stdin 
+
+# sort text file using first key
+sort -t: -k1,1 /dev/stdin
