@@ -43,3 +43,5 @@ uniq -w5 /dev/stdin
 tr "\n" "\t" < /dev/stdin
 # replace all new line with ';'
 paste -d';' -s
+
+uniq -ic|cut -c7-
